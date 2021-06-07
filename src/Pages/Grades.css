@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+}
+
+.GradedSec {
+  width: 15%;
+  text-align: center;
+  height: 150px;
+  /* padding-top: 60px; */
+  border-radius: 9px;
+  background-color: #fce288;
+}
+
+.GradeValues {
+  text-align: center;
+}
+
+.containers {
+  width: 80px;
+  height: 80px;
+  margin-top: 15px;
+  border-radius: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+}
+
+.GradeValues {
+  font-weight: 800;
+  font-size: 61px;
+  color: #f3b700;
+  text-align: center;
+  margin: 0;
+}
+
+.Subject {
+  margin-top: 5px;
+  font-weight: 600;
+  color: #042b58;
+  /* font-size: 18px; */
+}

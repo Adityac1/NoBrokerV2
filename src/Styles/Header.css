@@ -1,0 +1,353 @@
+.header {
+  background-color: #cdeafb;
+  height: 50vh;
+  border-radius: 29px;
+  position: relative;
+}
+
+.mainSec {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 15px;
+}
+
+.avatar {
+  width: 15%;
+}
+
+.ImageMargin {
+  height: 30vh;
+}
+
+.container {
+  background-color: yellow;
+  border-radius: 50%;
+  /* height: 0px; */
+}
+
+.avatarImage {
+  width: 60%;
+  margin-left: 40px;
+}
+
+.name {
+  font-weight: 800;
+  font-size: 25px;
+}
+
+.desc {
+  font-weight: 500;
+}
+
+.desc_link {
+  text-decoration: underline;
+  color: blue;
+}
+
+.idea {
+  width: 15%;
+}
+
+.ideaImage {
+  width: 100%;
+}
+
+.gradeFrame {
+  width: 70%;
+  height: 50vh;
+  position: absolute;
+  left: 250px;
+  top: 300px;
+  border-radius: 9px;
+  background-color: #fffbeb;
+}
+
+.gridSec {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 60px;
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.firstGrid {
+  margin-left: 20px;
+}
+
+.secondCircle {
+  border: 1px solid #f3b700;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+}
+
+.gradeText {
+  text-align: center;
+  margin-top: 35px;
+}
+
+.perc {
+  font-weight: 700;
+  font-style: SemiBold;
+  font-size: 24px;
+  line-height: 36sp;
+  line-height: 100%;
+  text-align: left;
+  color: #042b58;
+}
+
+.grade {
+  font-weight: 700;
+  font-family: poppins;
+  font-style: SemiBold;
+  font-size: 20px;
+  letter-spacing: 0.5px;
+  text-align: left;
+  color: #042b58;
+}
+
+.gradeSec {
+  font-family: poppins;
+  font-style: light;
+  font-size: 16px;
+  letter-spacing: 0.5px;
+  text-align: left;
+  color: #042b58;
+}
+
+.navBox {
+  width: 40px;
+  height: 40px;
+  background-color: #f3b700;
+  border-radius: 9px;
+}
+
+.navBox > img {
+  width: 100%;
+  color: #f3b700;
+}
+
+.perfmDetails {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+}
+
+.Academics,
+.Activities {
+  width: 50%;
+}
+
+.AcademicsSec {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  /* width: 50%; */
+}
+
+.AcaSec {
+  color: #042b58;
+  font-weight: 600;
+  font-size: 24px;
+  text-align: right;
+}
+
+.PerfmGrades {
+  color: #042b58;
+  font-size: 16px;
+}
+
+.PerfmGrade {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background-color: #f2f2f2;
+}
+
+.GradeValue {
+  font-weight: 800;
+  font-size: 61px;
+  color: #f3b700;
+  text-align: center;
+  margin-top: 25px;
+}
+
+.Add {
+  color: #ed9649;
+  margin: 0;
+  margin-top: 5px;
+  font-size: 80px;
+}
+
+.Charts {
+  width: 70%;
+  height: 50px;
+  /* margin-top: 0; */
+  position: absolute;
+  top: 700px;
+  left: 250px;
+}
+
+.chartPerf,
+.allMonths {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.perfChart,
+.Month {
+  width: 50%;
+}
+
+.allMonths {
+  justify-content: space-around;
+}
+
+.first {
+  padding: 0 10px;
+  background-color: #fed7d7;
+  border-radius: 6px;
+  font-weight: 400;
+  cursor: pointer;
+}
+
+.active {
+  background-color: #1760d3;
+  /* padding: 0 10px; */
+}
+
+.ChartDetails {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+}
+
+.ChartArrow {
+  width: 20px;
+  height: 15px;
+}
+
+.MyPerf {
+  width: 150px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.dotYellow {
+  width: 15px;
+  height: 15px;
+  margin-top: 5px;
+  border-radius: 50%;
+  background-color: #f3b700;
+}
+
+.dotblue {
+  width: 15px;
+  height: 15px;
+  margin-top: 5px;
+  border-radius: 50%;
+  background-color: #042b58;
+}
+
+.MainGrades {
+  width: 90%;
+  height: 50vh;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+}
+
+.GradedSecDetails {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media (max-width: 1024px) {
+  .avatar {
+    width: 23%;
+  }
+  .gradeFrame {
+    left: 150px;
+    /* top: 50px; */
+  }
+  .Charts {
+    left: 150px;
+  }
+}
+
+@media (max-width: 768px) {
+  .header {
+    width: 100%;
+  }
+
+  .avatar {
+    width: 30%;
+  }
+  .container {
+    height: 100px;
+    width: 100px;
+  }
+  .avatarImage {
+    margin-top: 20px;
+    margin-left: 10px;
+  }
+  .header {
+    height: 30vh;
+  }
+  .gradeFrame {
+    top: 200px;
+  }
+  .gradeFrame {
+    width: 80%;
+    height: 35vh;
+    left: 80px;
+  }
+  /* .perfm {
+    border: 1px solid;
+  } */
+  .perfmDetails {
+    width: 100%;
+  }
+
+  .AcaSec {
+    font-size: 25px;
+  }
+  .PerfmGrades {
+    padding-left: 80px;
+  }
+
+  .PerfmGrade {
+    height: 100px;
+    width: 100px;
+    margin-right: 20px;
+  }
+  .GradeValue {
+    margin: 0;
+    font-size: 35px;
+    margin-top: 20px;
+    text-align: center;
+  }
+  .Add {
+    margin-top: 20px;
+  }
+
+  .charts {
+    border: 1px solid;
+    width: 100%;
+  }
+}
